@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-       <body className="bg-white text-secondary-100">{children}</body> 
+       <body className="bg-secondary-100 text-primary-50">{children}</body> 
        <link rel="shortcut icon" href="./img/LogoCcpeBranco.jpeg" type="image/x-icon" />
     </html>
   )

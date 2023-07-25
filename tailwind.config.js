@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     colors:{
       primary: {
-        50:'#490000'
+        100:'#490000',
+        200: '#940904'
       },
       secondary: {
         100: '#ffff'
@@ -16,6 +17,9 @@ module.exports = {
       animation: {
         100: '#1e293b'
       },
+      golden:{
+        100: '#daa520'
+      }
     },
     extend: {
     },  
