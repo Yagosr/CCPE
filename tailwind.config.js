@@ -19,6 +19,12 @@ module.exports = {
       },
       golden:{
         100: '#daa520'
+      },
+      blue:{
+        100:'#000080'
+      },
+      black:{
+        100:'#666'
       }
     },
     extend: {
