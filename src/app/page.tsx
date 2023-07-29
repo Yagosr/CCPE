@@ -7,7 +7,7 @@ export default function Home() {
 
       <audio src="./audio/musica.mp3" autoPlay loop></audio>
 
-      <video className="fixed opacity-60 h-full w-full mb-22 mr-72 " autoPlay loop muted>
+      <video className="fixed opacity-60 h-full w-full mb-20 mr-72 " autoPlay loop muted>
         <source className="w-full h-full mdh-96" src="./video/ccpeGif.mp4" type="video/mp4" />
       </video>
 
@@ -24,7 +24,7 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <div className=" flex flex-col items-center justify-center text-2xl p-5 sm:text-xs">
+          <div className=" flex flex-col items-center justify-center text-xs p-5 sm:text-2xl">
             <h1>Venha participar do nosso culto</h1>
             <h1>Você é nosso convidado</h1>
             <h1>especial</h1>
@@ -32,9 +32,9 @@ export default function Home() {
         </div>
 
         <div>
-          <div className=" flex justify-center p-3 gap-12 ">
+          <div className=" flex justify-center p-3 gap-12  ">
             <div>
-              <div className="flex flex-col sm:text-xs">
+              <div className="flex flex-col text-xs sm:text-lg">
                 <span className="ml-1"> Carta convite</span>
                 <span className="ml-2">Clique aqui</span>
               </div>
@@ -51,7 +51,7 @@ export default function Home() {
               </Link>
             </div>
             <div>
-              <div className="flex flex-col items-center justify-center sm:text-xs">
+              <div className="flex flex-col items-center justify-center text-xs sm:text-lg">
                 <span >Como chegar?</span>
                 <span >Clique aqui</span>
               </div>
@@ -63,25 +63,25 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center items-center gap-2 p-5 sm:text-xs">
+          <div className="flex flex-col justify-center items-center gap-2 p-5 text-xs sm:text-lg">
             <h1>Clique nos icones para nos seguir nas redes sociais</h1>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-arrow-down"><path d="M12 5v14" /><path d="m19 12-7 7-7-7" /></svg>
           </div>
 
-          <div className=" flex items-center justify-center gap-32  p-3 cursor-pointer sm:gap-10">
+          <div className=" flex items-center justify-center gap-10   p-3 cursor-pointer sm:gap-32">
             <a href="https://www.youtube.com/@ccpeoficial3617/streams">
               <div className="flex flex-col justify-center items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="text-secondary-100 hover:text-primary-200 sm:w-10 h-10"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" /><path d="m10 15 5-3-5-3z" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="text-secondary-100 hover:text-primary-200 sm:w-12 h-12"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" /><path d="m10 15 5-3-5-3z" /></svg>
               </div>
             </a>
             <a href="https://www.facebook.com/comu.ccpe.3">
               <div className="flex flex-col justify-center items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="text-secondary-100 hover:text-primary-200 sm:w-10 h-10"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="text-secondary-100 hover:text-primary-200 sm:w-12 h-12"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
               </div>
             </a>
             <a href="https://www.instagram.com/comuccpe/">
               <div className="flex flex-col justify-center items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="text-secondary-100 hover:text-primary-200 sm:w-10 h-10"><rect width="20" height="20" x="2" y="2" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="text-secondary-100 hover:text-primary-200 sm:w-12 h-12"><rect width="20" height="20" x="2" y="2" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg>
               </div>
             </a>
           </div>
