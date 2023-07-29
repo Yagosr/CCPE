@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <main className="flex justify-center items-center mt-24 ">
 
-      <video  className="fixed opacity-60 h-full w-full mb-12 mr-72" autoPlay loop muted>
-        <source className="w-full h-full" src="./video/ccpeGif.mp4" type="video/mp4"/>
+      <video  className="fixed opacity-60 h-full w-full mb-12 mr-72 " autoPlay loop muted>
+        <source className="w-full h-full mdh-96" src="./video/ccpeGif.mp4" type="video/mp4"/>
       </video>
 
     <div className="  z-10 w-74 h-full bg-inherit ">
