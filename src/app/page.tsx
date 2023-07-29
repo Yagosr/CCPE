@@ -1,6 +1,14 @@
+'use client'
+import {useRouter} from "next/navigation"
 import Link from "next/link";
 
 export default function Home() {
+
+  const router = useRouter();
+  const handleInput = () => {
+      router.push("http://localhost:3000/page/invite")
+  }
+
   return (
     <main className="flex justify-center items-center mt-24 ">
 
@@ -36,11 +44,9 @@ export default function Home() {
                   <span className="ml-2">Clique aqui</span>
                 </div>
                   <div className="flex justify-center items-center cursor-pointer">
-                      <Link href={'http://localhost:3000/page/invite'}>
                         <div className="flex justify-center items-center text-secondary-100 hover:text-primary-200 cursor-pointer">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                          <svg onClick={handleInput} xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
                         </div>
-                      </Link>
                   </div>
               </div>
                 <div>
