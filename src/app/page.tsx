@@ -4,15 +4,12 @@ import Link from "next/link";
 
 export default function Home() {
 
-  const router = useRouter();
-  const handleInput = () => {
-      router.push("http://localhost:3000/page/invite")
-  }
-
   return (
     <main className="flex justify-center items-center mt-24 ">
 
-      <video  className="fixed opacity-60 h-full w-full mb-28 mr-72 " autoPlay loop muted>
+    <audio src="./audio/musica.mp3" autoPlay loop></audio>
+
+      <video  className="fixed opacity-60 h-full w-full mb-20 mr-72 " autoPlay loop muted>
         <source className="w-full h-full mdh-96" src="./video/ccpeGif.mp4" type="video/mp4"/>
       </video>
 
@@ -64,26 +61,25 @@ export default function Home() {
                 </div>
             </div>
 
-              <div className=" flex items-center justify-center gap-32  p-10 cursor-pointer">
+                <div className="flex flex-col justify-center items-center gap-2 p-5">
+                  <h1>Clique nos icones para nos seguir nas redes sociais</h1>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-arrow-down"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg>  
+                </div>
+
+              <div className=" flex items-center justify-center gap-32  p-3 cursor-pointer">
               <a href="https://www.youtube.com/@ccpeoficial3617/streams">
                   <div className="flex flex-col justify-center items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="text-secondary-100 hover:text-primary-200"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
-                    <span>Se Inscreve no nosso canal</span>
-                    <span>Live todos as terças, e domingos </span>
                   </div>
               </a>
               <a href="https://www.facebook.com/comu.ccpe.3">
                   <div className="flex flex-col justify-center items-center">
                      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="text-secondary-100 hover:text-primary-200"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-                     <span>Nos siga tambem no facebook</span>
                   </div>
               </a>
               <a href="https://www.instagram.com/comuccpe/">
                   <div className="flex flex-col justify-center items-center">
                      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="text-secondary-100 hover:text-primary-200"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
-                     <span>Nos siga no instagram</span>
-                     <span>Para acompanhar data de todas</span>
-                     <span>Festividades</span>
                   </div>
               </a>
               </div>
