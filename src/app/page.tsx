@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <main className="flex justify-center items-center mt-24 ">
 
-<audio src='./audio/louvorCcpe.mp3' autoPlay loop></audio>
+<audio src='./audio/louvorCcpe.mp3' autoPlay loop></audio>  
 
-      <video className="fixed opacity-60 h-full w-full mb-20 mr-72 sm:w-full h-full" autoPlay loop muted>
+      <video className="fixed opacity-60 h-full w-full mb-20 mr-52  sm:w-full h-full" autoPlay loop muted>
         <source className="w-full h-full mdh-96" src="./video/ccpeGif.mp4" type="video/mp4" />
       </video>
 
