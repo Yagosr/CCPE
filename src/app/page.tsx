@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Home() {
 
   return (
-    <main className="flex justify-center items-center p-6 md:m-32">
+    <main className="flex justify-center items-center p-6 ">
 
       <audio src='./audio/louvorCcpe.mp3' autoPlay loop></audio>  
 
