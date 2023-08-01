@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-       <body className={cabin.className} style={{backgroundColor:"#666", color:'white'}} >{children}</body> 
+       <body className={cabin.className} style={{backgroundColor:"black", color:'white'}} >{children}</body> 
        <link rel="shortcut icon" href="./img/LogoCcpeBranco.png" type="image/x-icon" />
        
     </html> 
