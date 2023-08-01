@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Home() {
 
   return (
-    <main className="flex justify-center items-center">
+    <main className="flex justify-center items-center p-6 md:m-32">
 
       <audio src='./audio/louvorCcpe.mp3' autoPlay loop></audio>  
 
@@ -58,12 +58,12 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center items-center gap-2 p-6 text-xs sm:text-lg">
+          <div className="flex flex-col justify-center items-center gap-2 p-3 text-xs sm:text-lg">
             <h1>Clique nos icones para nos seguir nas redes sociais</h1>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-arrow-down"><path d="M12 5v14" /><path d="m19 12-7 7-7-7" /></svg>
           </div>
 
-          <div className=" flex items-center justify-center gap-32   p-3 cursor-pointer sm:gap-32">
+          <div className=" flex items-center justify-center  gap-10  cursor-pointer sm:gap-32">
             <a href="https://www.youtube.com/@ccpeoficial3617/streams">
               <div className="flex flex-col justify-center items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="text-secondary-100 hover:text-primary-200 sm:w-12 h-12"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" /><path d="m10 15 5-3-5-3z" /></svg>
